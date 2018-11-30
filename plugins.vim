@@ -66,3 +66,9 @@ let g:ale_fixers = {
 \   'typescript': ['prettier', 'tslint'],
 \}
 let g:ale_fix_on_save = 1
+
+
+"" Gist
+Plug 'Shougo/unite.vim'
+Plug 'lambdalisue/vim-gista'
+Plug 'lambdalisue/vim-gista-unite'
