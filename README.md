@@ -16,3 +16,9 @@ that makes this distro super fast.
 git clone https://github.com/brodock/janus-plugged.git ~/.config/nvim
 nvim +PlugInstall +qall
 ```
+## Deoplete dependencies
+
+```sh
+npm install -g neovim
+pip3 install --user pynvim
+```
