@@ -2,7 +2,7 @@
 " Make sure you use single quotes
 
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive', {'as': 'fugitive'}
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-endwise'
