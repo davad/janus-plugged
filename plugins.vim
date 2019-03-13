@@ -43,8 +43,6 @@ Plug 'vim-airline/vim-airline-themes'
 "" TypeScript
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
-" For async completion
-Plug 'Shougo/deoplete.nvim'
 " For Denite features
 Plug 'Shougo/denite.nvim'
 
@@ -56,6 +54,9 @@ Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 " Enable deoplete at startup
 
 let g:deoplete#enable_at_startup = 1
+
+" Tab-complete from top to bottom
+let g:SuperTabDefaultCompletionType = "<c-n>"
 
 """ Linting and formatting
 Plug 'w0rp/ale'
