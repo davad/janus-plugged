@@ -11,6 +11,7 @@ Plug 'ctrlpvim/ctrlp.vim', { 'commit': 'f6c587e408dc0b45ffbabdadbb19739f8429e1eb
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'jeetsukumaran/vim-buffergator'
 Plug 'bronson/vim-trailing-whitespace'
@@ -22,6 +23,8 @@ Plug 'scrooloose/syntastic'
 " Plug 'ervandew/supertab'
 Plug 'sbdchd/neoformat'
 
+" Better Visual Guide
+Plug 'Yggdroot/indentLine'
 
 " Languages support
 Plug 'tpope/vim-haml', { 'for': 'haml' }
@@ -33,7 +36,16 @@ Plug 'thoughtbot/vim-rspec'
 
 " Autocomplete (requires python 3) - make sure you run before installing : pip3 install --upgrade neovim
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/context_filetype.nvim'
 Plug 'fishbullet/deoplete-ruby'
+Plug 'zchee/deoplete-jedi', { 'do': ':UpdateRemotePlugins' }
+
+" Work with indented objects
+Plug 'michaeljsmith/vim-indent-object'
+Plug 'jeetsukumaran/vim-indentwise'
+
+" Better language packs
+Plug 'sheerun/vim-polyglot'
 
 " Themes
 Plug 'morhetz/gruvbox'
