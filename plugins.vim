@@ -36,7 +36,7 @@ Plug 'thoughtbot/vim-rspec'
 
 " Autocomplete (requires python 3) - make sure you run before installing : pip3 install --upgrade neovim
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'Shougo/context_filetype.nvim'
+Plug 'Shougo/context_filetype.vim'
 Plug 'fishbullet/deoplete-ruby'
 Plug 'zchee/deoplete-jedi', { 'do': ':UpdateRemotePlugins' }
 
