@@ -19,7 +19,7 @@ Plug 'tpope/vim-eunuch'
 Plug 'rking/ag.vim'
 Plug 'benekastah/neomake'
 Plug 'scrooloose/syntastic'
-Plug 'ervandew/supertab'
+" Plug 'ervandew/supertab'
 Plug 'sbdchd/neoformat'
 
 
@@ -39,7 +39,7 @@ Plug 'fishbullet/deoplete-ruby'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline-themes'
 
-""" Autocomplete
+""" More autocomplete plugins
 "" TypeScript
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
@@ -73,3 +73,9 @@ let g:ale_fix_on_save = 1
 Plug 'Shougo/unite.vim'
 Plug 'lambdalisue/vim-gista'
 Plug 'lambdalisue/vim-gista-unite'
+
+""" Autocomplete config
+inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+
+""" Jump to file definition in javascript files
+" autocmd FileType javascript nnoremap <silent> <buffer> gb :TernDef<CR>
