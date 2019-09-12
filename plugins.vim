@@ -75,8 +75,17 @@ Plug 'w0rp/ale'
 
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'css': ['prettier'],
+\   'less': ['prettier'],
+\   'scss': ['prettier'],
+\   'markdown': ['prettier'],
+\   'yaml': ['prettier'],
+\   'html': ['prettier'],
 \   'javascript': ['prettier', 'eslint'],
+\   'json': ['prettier'],
 \   'typescript': ['prettier', 'tslint'],
+\   'vue': ['prettier'],
+\   'php': ['prettier'],
 \}
 let g:ale_fix_on_save = 1
 
