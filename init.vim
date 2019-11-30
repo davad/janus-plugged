@@ -1,4 +1,5 @@
 let s:path = expand('<sfile>:p:h')
+let g:python3_host_prog= $HOME . '/.pyenv/versions/neovim/bin/python'
 
 " Load vim-enabled plugins from plugins.vim file
 call plug#begin(s:path . '/plugged')
