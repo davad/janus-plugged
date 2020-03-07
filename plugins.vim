@@ -100,3 +100,6 @@ inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
 """ Jump to file definition in javascript files
 " autocmd FileType javascript nnoremap <silent> <buffer> gb :TernDef<CR>
+
+" Dev Icons (must be the last one)
+Plug 'ryanoasis/vim-devicons'
