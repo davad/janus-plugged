@@ -22,6 +22,7 @@ Plug 'benekastah/neomake'
 Plug 'scrooloose/syntastic'
 " Plug 'ervandew/supertab'
 Plug 'sbdchd/neoformat'
+Plug 'jreybert/vim-largefile'
 
 " Better Visual Guide
 Plug 'Yggdroot/indentLine'
