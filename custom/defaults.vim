@@ -16,6 +16,12 @@ set expandtab                     " use spaces, not tabs
 set list                          " Show invisible characters
 set backspace=indent,eol,start    " backspace through everything in insert mode
 
+" If the user manually enables line wrap, the following takes effect
+set linebreak                     " soft-wrap only at certain characters
+set showbreak=----->              " prefix for wrapped lines
+set cpoptions+=n                  " wrapped lines start in the line-number area
+
+
 " List chars
 set listchars=""                  " Reset the listchars
 set listchars=tab:\ \             " a tab should display as "  ", trailing whitespace as "."
