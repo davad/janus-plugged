@@ -10,7 +10,7 @@ To use this distro, you must install [Neovim](https://github.com/neovim/neovim)
 which is the secret weapon to enable all the async non-blocking operations
 that makes this distro super fast.
 
-## Copy/Paste easy install (OS X)
+## Copy/Paste easy install (OS X or Linux)
 
 ```sh
 git clone https://github.com/brodock/janus-plugged.git ~/.config/nvim
